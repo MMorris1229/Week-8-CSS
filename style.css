@@ -1,0 +1,150 @@
+/*background color for all pages*/
+body {background-color:#013328;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+/*I.D made changes to my headers*/
+#h1 {
+    color: black;
+    font-family:Verdana;
+    font-size: 200%;
+    }
+
+#h2 {
+    color:#C08081;
+    font-family:Verdana;
+    font-size: 170%;
+}
+
+/*I.D added buttons to Home, About Me, & Contact page*/
+ #b4 {
+    background-color: #C08081;
+    padding: 10px;
+    width: 100px;
+    color: #0b0b0b; 
+    }
+ #b4:hover {
+    border: 5px solid #036b4cda;
+    }
+
+ #b5 {
+    background-color: #C08081;
+    padding: 10px;
+    width: 100px;
+    color: #0b0b0b; 
+     }
+ #b5:hover {
+    border: 5px solid #036b4cda;
+     }
+
+ #b6 {
+    background-color: #C08081;
+    padding: 10px;
+    width: 100px;
+    color: #0b0b0b; 
+     }
+ #b6:hover {
+    border: 5px solid #036b4cda;
+     }
+
+ /* centered table on conatct page and added bottom border with color*/
+table{margin-left: auto;
+      margin-right: auto;
+      width:50%}
+ 
+
+th, td, tr {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 5px dotted rgba(56, 143, 86, 0.881);
+    
+}
+/*adds color change when hovered over form on contact page*/
+input[type=text]:hover {
+    border: 5px solid rgba(36, 155, 78, 0.573);
+}
+
+input[type=submit]:hover {
+    border: 5px solid rgba(36, 155, 78, 0.573);
+
+}
+/* changed font for all paragraphs*/
+p { font-style:italic
+    }
+p {font-size: medium;}
+
+p {font-family:Lucida;}
+
+/*centered links on About Me page*/
+.links {
+    text-align: center;
+}
+
+.links > ul {
+  display: inline-block;
+} 
+/* I.D added buttons to links on About Me page*/
+#b1 {
+    background-color: #C08081;
+    padding: 20px;
+    width: 200px;
+    color: #0b0b0b; 
+}
+#b1:hover {
+    border: 5px solid #036b4cda;
+}
+#b2 {
+    background-color: #C08081;
+    padding: 20px;
+    width: 200px;
+    color: #0b0b0b; 
+}
+#b2:hover {
+    border: 5px solid #036b4cda;
+}
+
+#b3 {
+    background-color: #C08081;
+    padding: 20px;
+    width: 200px;
+    color: #0b0b0b; 
+}
+#b3:hover {
+    border: 5px solid #036b4cda;
+}
+
+/*Class added a box around my paragraphs */
+#box-color {
+    padding: 20px;
+    border-style: solid;
+    border-width: 3px;
+    margin: 30px;
+    background-color:#036b4cda;
+}
+/* added a border around my images */
+img {
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #C08081; 
+}
+/*I.D added rounded border on About Me image*/
+#img1 {
+    border-radius: 50%;
+    height: 350px;
+}
+/*added an I.D to paragraph on contact page*/
+#p5 {
+    font-size: 30px;
+    font-family: Lucida;
+}
+
+/*added color to my links on contact page*/
+a { 
+    color: #C08081; 
+}
+
+a:hover {
+    color: black;
+  }
